@@ -1,4 +1,5 @@
 import { GithubRepositoriesCard } from './GithubRepositoriesCard';
+import './GithubRepositories.css';
 
 export const GithubRepositories: React.FC = () => {
   return (
