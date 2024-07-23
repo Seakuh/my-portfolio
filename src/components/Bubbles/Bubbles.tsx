@@ -57,9 +57,7 @@ const Bubbles: React.FC = () => {
   const [bubbles, setBubbles] =
     useState<{ name: string; color: string }[]>(labels);
 
-  const handleBubbleClick = (index: number) => {
-    setBubbles((prevBubbles) => prevBubbles.filter((_, i) => i !== index));
-  };
+  const handleBubbleClick = (index: number) => {};
 
   return (
     <div className="bubble-container">

@@ -1,0 +1,39 @@
+.passion-symbols {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.passion-symbol {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.symbol-image {
+  width: 100%;
+  height: 80px; /* Set the height to 80px */
+  display: block;
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.symbol-headline {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+}
+
+.symbol-description {
+  padding: 20px;
+  font-size: 1em;
+  color: #333;
+  text-align: center;
+}

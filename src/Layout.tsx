@@ -1,9 +1,10 @@
 import React from 'react';
 import './Layout.css';
-import Section from './Section';
+import Section from './components/Section/Section';
 import Bubbles from './components/Bubbles/Bubbles';
 import { Projects } from './Projects';
 import { GithubRepositories } from './components/GithubRepositories/GithubRepositories';
+import PassionSymbols from './components/PassionSymbols/PassionSymbols';
 
 const Layout: React.FC = () => {
   return (
@@ -29,8 +30,7 @@ const Layout: React.FC = () => {
         title="GithubRepositories"
         content={<GithubRepositories></GithubRepositories>}
       />
-      <Section title="Projects" content={<Projects></Projects>} />
-      <Section title="Links" content={<p>Links</p>} />
+      <Section title="Passions" content={<PassionSymbols></PassionSymbols>} />
     </div>
   );
 };
