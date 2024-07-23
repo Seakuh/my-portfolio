@@ -31,6 +31,7 @@ const Layout: React.FC = () => {
         content={<GithubRepositories></GithubRepositories>}
       />
       <Section title="Passions" content={<PassionSymbols></PassionSymbols>} />
+      <Section title="Links" content={<p>Links</p>} />
     </div>
   );
 };

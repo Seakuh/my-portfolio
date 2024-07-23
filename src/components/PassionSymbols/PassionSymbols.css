@@ -8,11 +8,12 @@
 
 .passion-symbol {
   position: relative;
-  border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  border: 5px solid; /* Border width */
+  animation: rainbow-border 5s linear infinite;
 }
 
 .symbol-image {
@@ -56,4 +57,46 @@
 
 .passion-symbol:hover::before {
   left: 125%;
+}
+
+@keyframes rainbow-border {
+  0% {
+    border-color: hsl(0, 100%, 50%);
+  }
+  8.33% {
+    border-color: hsl(30, 100%, 50%);
+  }
+  16.66% {
+    border-color: hsl(60, 100%, 50%);
+  }
+  25% {
+    border-color: hsl(90, 100%, 50%);
+  }
+  33.33% {
+    border-color: hsl(120, 100%, 50%);
+  }
+  41.66% {
+    border-color: hsl(150, 100%, 50%);
+  }
+  50% {
+    border-color: hsl(180, 100%, 50%);
+  }
+  58.33% {
+    border-color: hsl(210, 100%, 50%);
+  }
+  66.66% {
+    border-color: hsl(240, 100%, 50%);
+  }
+  75% {
+    border-color: hsl(270, 100%, 50%);
+  }
+  83.33% {
+    border-color: hsl(300, 100%, 50%);
+  }
+  91.66% {
+    border-color: hsl(330, 100%, 50%);
+  }
+  100% {
+    border-color: hsl(360, 100%, 50%);
+  }
 }
