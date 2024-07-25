@@ -5,6 +5,7 @@ import Bubbles from './components/Bubbles/Bubbles';
 import { GithubRepositories } from './components/GithubRepositories/GithubRepositories';
 import PassionSymbols from './components/PassionSymbols/PassionSymbols';
 import TimeLine from './components/TimeLine/TimeLine';
+import Footer from './Footer/Footer';
 
 const Layout: React.FC = () => {
   return (
@@ -32,6 +33,7 @@ const Layout: React.FC = () => {
         content={<GithubRepositories></GithubRepositories>}
       />
       <Section title="Passions" content={<PassionSymbols></PassionSymbols>} />
+      <Section content={<Footer></Footer>} />
     </div>
   );
 };
