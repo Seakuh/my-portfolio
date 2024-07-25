@@ -17,6 +17,22 @@ export const items = [
     },
   },
   {
+    title: 'June 2016',
+    cardTitle: 'Mein verbundenes Zuhause',
+    cardSubtitle: 'First Website',
+    cardDetailedText:
+      'I developed the website mein-verbundenes-zuhause.de during my education to digitize my work. The site serves as a comprehensive resource for users interested in smart home technology. It features detailed reviews and tests of various devices and applications, enabling users to make informed decisions about their purchases. Additionally, the website offers valuable tips and tricks for transforming a regular home into a smart home. Users can conveniently order products through affiliate links provided on the site, directly from the manufacturers. This project not only streamlined my workflow but also helped countless users enhance their living spaces with the latest smart home innovations.',
+    url: 'http://mein-verbundenes-zuhause.de/',
+    media: {
+      name: 'Mein verbundenes Zuhause Logo',
+      type: 'IMAGE',
+      source: {
+        url: 'http://mein-verbundenes-zuhause.de/wp-content/uploads/2016/05/cropped-image-15.jpeg',
+      },
+    },
+  },
+
+  {
     title: 'August 2018',
     cardTitle: 'Bosch',
     cardSubtitle: '',
@@ -74,7 +90,7 @@ export const items = [
       name: 'Apploft Logo',
       type: 'IMAGE',
       source: {
-        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS81C-6Wy0IfBqZshjTqoHIyPY3i44iOHku5Q&s',
+        url: 'https://cdn.join.com/5c5c34dc1fa6620006e482e3/apploft-gmb-h-logo-xl.jpg',
       },
     },
   },

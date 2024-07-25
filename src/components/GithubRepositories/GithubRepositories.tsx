@@ -12,16 +12,16 @@ export const GithubRepositories: React.FC = () => {
           link="https://github.com/Seakuh"
         />
         <GithubRepositoriesCard
-          image="https://avatars.githubusercontent.com/u/78036483?v=4"
-          title="NapierDanel"
-          description="Github Profile from Semester abort"
-          link="https://github.com/NapierDanel"
-        />
-        <GithubRepositoriesCard
           image="https://avatars.githubusercontent.com/u/89012620?v=4"
           title="Dizzle Reply"
           description="Work Profile from Comsysto Reply"
           link="https://github.com/DizzleReply"
+        />
+        <GithubRepositoriesCard
+          image="https://avatars.githubusercontent.com/u/78036483?v=4"
+          title="NapierDanel"
+          description="Github Profile from Semester abort"
+          link="https://github.com/NapierDanel"
         />
       </div>
     </div>
