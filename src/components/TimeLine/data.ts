@@ -82,6 +82,7 @@ export const items = [
     title: 'August 2021',
     cardTitle: 'Bachelor Thesis',
     cardSubtitle: '',
+    url: 'https://github.com/Seakuh/DappResourceRental',
     cardDetailedText:
       "In my bachelor thesis, I designed and developed a blockchain-based resource management system using the Bloxberg, a university collective blockchain. The primary objective of the system was to manage resource rental efficiently by leveraging the benefits of blockchain technology. The system was built using the Solidity programming language, which is specifically designed for creating smart contracts on the Ethereum blockchain. I also developed a decentralized application (dApp) using React and integrated it with MetaMask for transactions and authentication. In my research, I explored the use of elliptic-curve encryption for securing the system's data and transactions. Overall, the project aimed to demonstrate the potential of blockchain technology in revolutionizing resource management systems and improving their efficiency. JavaScript , NODE, Blockchain, web3, Ganache, HTML, Bootstrap, Bloxberg, Metamask , Truffle, RemixIDE",
     media: {
