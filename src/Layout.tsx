@@ -2,9 +2,9 @@ import React from 'react';
 import './Layout.css';
 import Section from './components/Section/Section';
 import Bubbles from './components/Bubbles/Bubbles';
-import { Projects } from './Projects';
 import { GithubRepositories } from './components/GithubRepositories/GithubRepositories';
 import PassionSymbols from './components/PassionSymbols/PassionSymbols';
+import TimeLine from './components/TimeLine/TimeLine';
 
 const Layout: React.FC = () => {
   return (
@@ -26,12 +26,12 @@ const Layout: React.FC = () => {
           </p>
         }
       />
+      <Section title="Timeline" content={<TimeLine></TimeLine>} />
       <Section
         title="GithubRepositories"
         content={<GithubRepositories></GithubRepositories>}
       />
       <Section title="Passions" content={<PassionSymbols></PassionSymbols>} />
-      <Section title="Links" content={<p>Links</p>} />
     </div>
   );
 };
