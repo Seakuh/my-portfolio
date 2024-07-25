@@ -33,7 +33,7 @@ const Layout: React.FC = () => {
         content={<GithubRepositories></GithubRepositories>}
       />
       <Section title="Passions" content={<PassionSymbols></PassionSymbols>} />
-      <Section content={<Footer></Footer>} />
+      {/* <Section content={<Footer></Footer>} /> */}
     </div>
   );
 };
