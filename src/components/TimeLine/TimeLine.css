@@ -1,3 +1,4 @@
 .timeline-container ul:nth-child(1) {
   display: none;
+  width: 500px;
 }
