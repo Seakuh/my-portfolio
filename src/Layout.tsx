@@ -10,10 +10,9 @@ import Footer from './Footer/Footer';
 const Layout: React.FC = () => {
   return (
     <div className="layout">
-      <Section content={<Bubbles></Bubbles>} />
-      <Section
-        title="This is me"
-        content={
+      <Bubbles/>
+      <div className="sections">
+        <Section title="This is me">
           <p>
             The development of innovations and constant improvements in various
             areas of life have always excited me. Software development allows me
@@ -25,15 +24,12 @@ const Layout: React.FC = () => {
             Working in a team inspires me because only the influence of each
             team member makes it possible to create a great product.
           </p>
-        }
-      />
-      <Section title="Timeline" content={<TimeLine></TimeLine>} />
-      <Section
-        title="GithubRepositories"
-        content={<GithubRepositories></GithubRepositories>}
-      />
-      <Section title="Passions" content={<PassionSymbols></PassionSymbols>} />
-      <Section content={<Footer></Footer>} />
+        </Section>
+        <Section title="Timeline"><TimeLine/></Section>
+        <Section title="GithubRepositories"><GithubRepositories/></Section>
+        <Section title="Passions"><PassionSymbols/></Section>
+        <Section><Footer/></Section>
+      </div>
     </div>
   );
 };

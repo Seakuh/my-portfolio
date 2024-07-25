@@ -1,45 +1,43 @@
-import React, { useState } from 'react';
+import React, { CSSProperties } from 'react';
 import './Bubbles.css';
-import { labels } from './data';
+import { bubbleData } from './bubble-data';
 
 interface BubbleProps {
-  label: { name: string; color: string };
-  onClick: () => void;
+  readonly name: string;
+  readonly color: string;
+  readonly size: number;
 }
 
-const Bubble: React.FC<BubbleProps> = ({ label, onClick }) => {
-  const size = Math.random() * 100 + 50;
+const Bubble: React.FC<BubbleProps> = ({ name, color, size }) => {
   const left = Math.random() * 100;
   const duration = Math.random() * 5 + 4;
+  const delay = Math.random() * 2;
 
-  const bubbleStyle = {
-    backgroundColor: label.color,
+  const bubbleStyle: CSSProperties = {
+    backgroundColor: color,
     width: `${size}px`,
     height: `${size}px`,
     left: `${left}vw`,
     animationDuration: `${duration}s`,
+    animationDelay: `${delay}s`,
   };
 
   return (
-    <div className="bubble" style={bubbleStyle} onClick={onClick}>
-      <span>{label.name}</span>
+    <div className="bubble" style={bubbleStyle}>
+      <span>{name}</span>
     </div>
   );
 };
 
 const Bubbles: React.FC = () => {
-  const [bubbles, setBubbles] =
-    useState<{ name: string; color: string }[]>(labels);
-
-  const handleBubbleClick = (index: number) => {};
-
   return (
     <div className="bubble-container">
-      {bubbles.map((label, index) => (
+      {bubbleData.map((label, index) => (
         <Bubble
           key={index + label.name}
-          label={label}
-          onClick={() => handleBubbleClick(index)}
+          name={label.name}
+          color={label.color}
+          size={label.size}
         />
       ))}
     </div>

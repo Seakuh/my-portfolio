@@ -1,8 +1,10 @@
 .bubble-container {
-  position: relative;
+  top: 0;
+  position: fixed;
   width: 100%;
   height: 300px;
   overflow: hidden;
+  z-index: -1;
 }
 
 .bubble {
@@ -17,13 +19,14 @@
   animation-name: float;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  bottom: -150px;
 }
 
 @keyframes float {
   0% {
-    bottom: -50px;
+    bottom: -150px;
   }
   100% {
-    bottom: 110%;
+    bottom: calc(100% + 50px);
   }
 }

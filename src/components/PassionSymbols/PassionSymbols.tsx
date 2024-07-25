@@ -16,10 +16,12 @@ const PassionSymbol = ({
   description,
 }: PassionSymbolProps) => {
   return (
-    <div className="passion-symbol">
-      <img src={image} alt={headline} className="symbol-image" />
-      <div className="symbol-headline">{headline}</div>
-      <div className="symbol-description">{description}</div>
+    <div className="passion-symbol-background">
+      <div className="passion-symbol">
+        <img src={image} alt={headline} className="symbol-image" />
+        <div className="symbol-headline">{headline}</div>
+        <div className="symbol-description">{description}</div>
+      </div>
     </div>
   );
 };
