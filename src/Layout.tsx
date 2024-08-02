@@ -5,7 +5,8 @@ import Bubbles from './components/Bubbles/Bubbles';
 import { GithubRepositories } from './components/GithubRepositories/GithubRepositories';
 import PassionSymbols from './components/PassionSymbols/PassionSymbols';
 import TimeLine from './components/TimeLine/TimeLine';
-import Footer from './Footer/Footer';
+import BentoGrid from './components/BentoGrid/BentoGrid';
+import { Footer } from './Footer/Footer';
 
 const Layout: React.FC = () => {
   return (
@@ -27,13 +28,14 @@ const Layout: React.FC = () => {
           </p>
         }
       />
+      <Section title={'Blog Posts'} content={<BentoGrid></BentoGrid>} />
       <Section title="Timeline" content={<TimeLine></TimeLine>} />
       <Section
         title="GithubRepositories"
         content={<GithubRepositories></GithubRepositories>}
       />
       <Section title="Passions" content={<PassionSymbols></PassionSymbols>} />
-      {/* <Section content={<Footer></Footer>} /> */}
+      <Section content={<Footer></Footer>} />
     </div>
   );
 };
