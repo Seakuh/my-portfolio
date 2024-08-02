@@ -1,4 +1,56 @@
 .section-title {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 20px;
+  background-image: conic-gradient(#553c9a, #2b3fee, #00c2cb);
+  background-clip: text; /* Clips the background to the text */
+  -webkit-background-clip: text; /* Safari support */
+  color: transparent; /* Makes the text color transparent to show the gradient */
+  text-align: center; /* Center-align the title */
+  font-weight: bold; /* Make the text bold */
+  text-transform: uppercase; /* Convert the text to uppercase for a modern look */
+  letter-spacing: 2px; /* Add space between the letters */
+  position: relative; /* Set relative positioning for shadow effects */
+  padding: 10px 20px; /* Add some padding around the text */
+  animation: gradient-shift 5s infinite linear; /* Add an animation to the gradient */
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  opacity: 0.7;
+}
+
+.section-title:hover::after {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 194, 203, 0) 0%,
+    rgba(20, 0, 203, 0.5) 50%,
+    rgba(0, 194, 203, 0) 100%
+  );
+  opacity: 1;
 }

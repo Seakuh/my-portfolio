@@ -1,0 +1,9 @@
+/* Link Styling */
+p {
+  font-family: 'Montserrat', sans-serif; /* Use the same modern font */
+  font-size: 2rem; /* Adjust font size */
+  color: #007bff; /* Vibrant blue color */
+  text-decoration: none; /* Remove default underline */
+  position: relative;
+  transition: color 0.3s ease; /* Smooth transition for color */
+}
