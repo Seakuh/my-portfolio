@@ -8,6 +8,7 @@ import TimeLine from './components/TimeLine/TimeLine';
 import BentoGrid from './components/BentoGrid/BentoGrid';
 import { Footer } from './Footer/Footer';
 import LandingText from './LandingText/LandingText';
+import BinauralFrequenciesTable from './BinauralFrequenciesTable/BinauralFrequenciesTable';
 
 const Layout: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const Layout: React.FC = () => {
         title="GithubRepositories"
         content={<GithubRepositories></GithubRepositories>}
       />
+      <Section title='Beats' content={<BinauralFrequenciesTable></BinauralFrequenciesTable>}></Section>
       <Section title="Passions" content={<PassionSymbols></PassionSymbols>} />
       <Section content={<Footer></Footer>} />
     </div>
