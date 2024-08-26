@@ -1,0 +1,26 @@
+/* BigButton.css */
+.big-button {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .big-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+  
+  .big-button:focus {
+    outline: none;
+  }
+  

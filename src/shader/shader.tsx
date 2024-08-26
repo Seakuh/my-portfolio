@@ -47,7 +47,7 @@ export const Shader = () => {
       <iframe
         ref={iframeRef}
         width="1200"
-        height="1000"
+        height="200"
         src="https://www.shadertoy.com/embed/lcBfRD?gui=false&paused=false&muted=false"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
