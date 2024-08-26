@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.44ab8195.css",
-    "main.js": "/my-portfolio/static/js/main.caa42c16.js",
+    "main.css": "/my-portfolio/static/css/main.35977df2.css",
+    "main.js": "/my-portfolio/static/js/main.1c50fe72.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/passion_collective_initiatives.webp": "/my-portfolio/static/media/passion_collective_initiatives.e36a67d7c39e7b0fcebd.webp",
     "static/media/passion_digital_art.webp": "/my-portfolio/static/media/passion_digital_art.566f0e038669ed064be9.webp",
     "static/media/passion_light_programming.webp": "/my-portfolio/static/media/passion_light_programming.5804664ecbe245d50a9e.webp",
     "index.html": "/my-portfolio/index.html",
-    "main.44ab8195.css.map": "/my-portfolio/static/css/main.44ab8195.css.map",
-    "main.caa42c16.js.map": "/my-portfolio/static/js/main.caa42c16.js.map",
+    "main.35977df2.css.map": "/my-portfolio/static/css/main.35977df2.css.map",
+    "main.1c50fe72.js.map": "/my-portfolio/static/js/main.1c50fe72.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44ab8195.css",
-    "static/js/main.caa42c16.js"
+    "static/css/main.35977df2.css",
+    "static/js/main.1c50fe72.js"
   ]
 }
