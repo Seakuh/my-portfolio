@@ -1,0 +1,51 @@
+.shader-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align text to the left */
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+  }
+  
+  .text-container {
+    margin-right: 20px; /* Space between text and iframe */
+    animation: flyIn 4s ease-out; /* Smooth fly-in animation */
+    overflow: hidden;
+    width: 40%;
+  }
+  
+  @keyframes flyIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  iframe {
+    transition: transform 0.3s ease-out;
+  }
+  
+  /* Shine effect */
+  @keyframes shine {
+    0% {
+      background-position: -100%;
+    }
+    100% {
+      background-position: 200%;
+    }
+  }
+  
+  .landing-text {
+    font-size: 2em;
+    font-weight: bold;
+    background: linear-gradient(to right, #fff 10%, #ff0 50%, #fff 90%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    animation: shine 3s linear infinite;
+  }
+  
