@@ -1,7 +1,6 @@
-import React from 'react';
-import { Chrono } from 'react-chrono';
-import './TimeLine.css';
-import { items } from './data';
+import { Chrono } from "react-chrono";
+import { items } from "./data";
+import "./TimeLine.css";
 
 const TimeLine = () => {
   return (
@@ -13,10 +12,10 @@ const TimeLine = () => {
         items={items}
         mode="VERTICAL_ALTERNATING"
         theme={{
-          primary: 'blue',
-          secondary: 'grey',
-          cardBgColor: 'white',
-          cardForeColor: 'black',
+          primary: "blue",
+          secondary: "grey",
+          cardBgColor: "white",
+          cardForeColor: "black",
         }}
       />
     </div>
