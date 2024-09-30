@@ -1,5 +1,6 @@
 import React from "react";
 import BinauralFrequenciesTable from "./BinauralFrequenciesTable/BinauralFrequenciesTable";
+import FrequencyOverview from "./BinauralFrequenciesTable/FrequencyOverview/FrequencyOverview";
 import BentoGrid from "./components/BentoGrid/BentoGrid";
 import Bubbles from "./components/Bubbles/Bubbles";
 import { GithubRepositories } from "./components/GithubRepositories/GithubRepositories";
@@ -9,24 +10,30 @@ import TimeLine from "./components/TimeLine/TimeLine";
 import { Footer } from "./Footer/Footer";
 import "./Layout.css";
 import { Shader } from "./shader/shader";
-
 const Layout: React.FC = () => {
   return (
     <div className="layout">
-      <Section content={<Bubbles></Bubbles>} />
-      <Section title="This is me" content={<Shader></Shader>} />
-      <Section title={"Blog Posts"} content={<BentoGrid></BentoGrid>} />
-      <Section title="Timeline" content={<TimeLine></TimeLine>} />
+      <Section id="bubbles" content={<Bubbles />} />
+      <Section id="shader" title="This is me" content={<Shader />} />
+      <Section id="blog-posts" title={"Blog Posts"} content={<BentoGrid />} />
       <Section
-        title="GithubRepositories"
-        content={<GithubRepositories></GithubRepositories>}
+        id="frequency-overview"
+        title={"Frequencies"}
+        content={<FrequencyOverview />}
+      />
+      <Section id="timeline" title="Timeline" content={<TimeLine />} />
+      <Section
+        id="github-repositories"
+        title="Github Repositories"
+        content={<GithubRepositories />}
       />
       <Section
+        id="beats"
         title="Beats"
-        content={<BinauralFrequenciesTable></BinauralFrequenciesTable>}
-      ></Section>
-      <Section title="Passions" content={<PassionSymbols></PassionSymbols>} />
-      <Section content={<Footer></Footer>} />
+        content={<BinauralFrequenciesTable />}
+      />
+      <Section id="passions" title="Passions" content={<PassionSymbols />} />
+      <Section content={<Footer />} />
     </div>
   );
 };

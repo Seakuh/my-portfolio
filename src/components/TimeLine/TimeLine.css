@@ -2,3 +2,42 @@
   display: none;
   width: 500px;
 }
+
+.custom-chrono .chrono-icons {
+  display: none; /* Optional: Remove the default icons */
+}
+
+.custom-chrono .vertical-item .card-wrapper {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-chrono .vertical-item .card-wrapper:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.custom-chrono .vertical-item .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.custom-chrono .vertical-item .card-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.custom-chrono .vertical-item .card-body {
+  padding: 10px;
+}
+
+.custom-chrono .vertical-item .card-wrapper .card-img {
+  border-radius: 12px;
+  margin-bottom: 15px;
+  width: 100%;
+}

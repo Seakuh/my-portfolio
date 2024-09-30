@@ -6,11 +6,10 @@ const TimeLine = () => {
   return (
     <div className="timeline-container">
       <Chrono
-        slideShow={true}
         fliplayout={false}
         enableLayoutSwitch={false}
         items={items}
-        mode="VERTICAL_ALTERNATING"
+        mode="VERTICAL"
         theme={{
           primary: "blue",
           secondary: "grey",
