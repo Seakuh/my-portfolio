@@ -1,10 +1,8 @@
 
 .table-container {
-    background-color: #121212;
     color: #E0E0E0;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 button {
@@ -13,7 +11,6 @@ button {
     background: linear-gradient(135deg, #6a5acd, #836fff);
     border: none;
     border-radius: 8px;
-    color: white;
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -22,7 +19,7 @@ button {
   
   button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 12px rgba(43, 49, 209, 0.3);
     background: linear-gradient(135deg, #836fff, #6a5acd);
   }
   
@@ -58,21 +55,18 @@ th, td {
     border: 1px solid #444;
     padding: 12px 15px;
     text-align: center;
-    color: #F5F5F5;
+    color: #0062ff;
 }
 
 th {
     background-color: #333;
-    color: #FFD700;
+    color: #6c98e0;
     font-weight: bold;
 }
 
-td {
-    background-color: #222;
-}
 
 tr:hover {
-    background-color: #444;
+    background-color: rgb(232, 244, 3);
 }
 
 @media (max-width: 768px) {

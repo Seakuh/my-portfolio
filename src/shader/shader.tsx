@@ -44,14 +44,15 @@ export const Shader = () => {
       <div className="text-container">
         <LandingText />
       </div>
-      <iframe
+
+      {/* <iframe
         ref={iframeRef}
         width="1200"
         height="500"
         src="https://www.shadertoy.com/embed/lcBfRD?gui=false&paused=false&muted=false"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-      ></iframe>
+      ></iframe> */}
     </div>
   );
 };
