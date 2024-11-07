@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.bc672190.css",
-    "main.js": "/my-portfolio/static/js/main.83f48db0.js",
+    "main.css": "/my-portfolio/static/css/main.1a3d8442.css",
+    "main.js": "/my-portfolio/static/js/main.b568dcab.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/muscle.png": "/my-portfolio/static/media/muscle.e9cecfc238d6e6bdeaec.png",
     "static/media/flowmarked.png": "/my-portfolio/static/media/flowmarked.fcb4af32346fb6fb3020.png",
@@ -9,14 +9,15 @@
     "static/media/passion_digital_art.webp": "/my-portfolio/static/media/passion_digital_art.566f0e038669ed064be9.webp",
     "static/media/passion_light_programming.webp": "/my-portfolio/static/media/passion_light_programming.5804664ecbe245d50a9e.webp",
     "static/media/focusplugin.png": "/my-portfolio/static/media/focusplugin.e3097e949cf077407771.png",
+    "static/media/me.jpeg": "/my-portfolio/static/media/me.db3926e11b94e0ebce4f.jpeg",
     "static/media/apartmentgenie.png": "/my-portfolio/static/media/apartmentgenie.122ac74b2bd87aa8f18f.png",
     "index.html": "/my-portfolio/index.html",
-    "main.bc672190.css.map": "/my-portfolio/static/css/main.bc672190.css.map",
-    "main.83f48db0.js.map": "/my-portfolio/static/js/main.83f48db0.js.map",
+    "main.1a3d8442.css.map": "/my-portfolio/static/css/main.1a3d8442.css.map",
+    "main.b568dcab.js.map": "/my-portfolio/static/js/main.b568dcab.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc672190.css",
-    "static/js/main.83f48db0.js"
+    "static/css/main.1a3d8442.css",
+    "static/js/main.b568dcab.js"
   ]
 }
