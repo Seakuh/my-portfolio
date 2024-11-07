@@ -15,6 +15,7 @@ const FrequencyOverview: React.FC = () => {
         brainwave activity, potentially affecting mental states, emotional
         well-being, and cognitive performance.
       </p>
+      <button className="play-button">▶</button>
       {frequencyData.map((freq, index) => (
         <FrequencyCard frequency={freq.hz} />
       ))}
