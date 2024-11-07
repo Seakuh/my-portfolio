@@ -15,7 +15,6 @@ const Layout: React.FC = () => {
     <div className="layout">
       <Section id="bubbles" content={<Bubbles />} />
       <Section id="Projects" title={"Projects"} content={<Projects />} />
-      {/* <Section id="shader" title="This is me" content={<Shader />} /> */}
       <Section
         id="github-repositories"
         title="Github Repositories"

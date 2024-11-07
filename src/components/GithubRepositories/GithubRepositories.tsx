@@ -1,5 +1,5 @@
-import { GithubRepositoriesCard } from './GithubRepositoriesCard';
-import './GithubRepositories.css';
+import "./GithubRepositories.css";
+import { GithubRepositoriesCard } from "./GithubRepositoriesCard";
 
 export const GithubRepositories: React.FC = () => {
   return (
@@ -14,13 +14,13 @@ export const GithubRepositories: React.FC = () => {
         <GithubRepositoriesCard
           image="https://avatars.githubusercontent.com/u/89012620?v=4"
           title="Dizzle Reply"
-          description="Work Profile from Comsysto Reply"
+          description="Work Profile from Comsysto"
           link="https://github.com/DizzleReply"
         />
         <GithubRepositoriesCard
           image="https://avatars.githubusercontent.com/u/78036483?v=4"
           title="NapierDanel"
-          description="Github Profile from Semester abort"
+          description="Semester abort Profile"
           link="https://github.com/NapierDanel"
         />
       </div>
