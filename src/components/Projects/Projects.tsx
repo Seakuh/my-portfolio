@@ -8,7 +8,7 @@ interface Project {
 
 const projectList: Project[] = [
   {
-    title: "Apartment Genie 🏠🧞‍♂️",
+    title: "AI Apartment Genie 🏠🧞‍♂️",
     imageUrl:
       "https://raw.githubusercontent.com/Seakuh/apartment-text-generator/refs/heads/main/apartment-text-generator/public/home_ginue_logo.png",
     link: "https://apartment-text-generator-site.onrender.com/",

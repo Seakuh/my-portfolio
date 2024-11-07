@@ -16,12 +16,13 @@ const Layout: React.FC = () => {
       <Section id="bubbles" content={<Bubbles />} />
       <Section id="Projects" title={"Projects"} content={<Projects />} />
       {/* <Section id="shader" title="This is me" content={<Shader />} /> */}
-      <Section id="blog-posts" title={"Blog Posts"} content={<BentoGrid />} />
       <Section
         id="github-repositories"
         title="Github Repositories"
         content={<GithubRepositories />}
       />
+      <Section id="blog-posts" title={"Blog Posts"} content={<BentoGrid />} />
+      <Section id="passions" title="Passions" content={<PassionSymbols />} />
       <Section
         id="frequency-overview"
         title={"Frequencies"}
@@ -29,7 +30,6 @@ const Layout: React.FC = () => {
       />
       <Section id="beats" content={<BinauralFrequenciesTable />} />
       <Section id="timeline" title="Timeline" content={<TimeLine />} />
-      <Section id="passions" title="Passions" content={<PassionSymbols />} />
       <Section content={<Footer />} />
     </div>
   );
