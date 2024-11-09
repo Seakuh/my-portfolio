@@ -42,7 +42,7 @@ const projectList: Project[] = [
   {
     title: "Avanti Kollektiv 🎧",
     imageUrl: avantiLogo,
-    link: "https://www.instagram.com/avantikollektiv/",
+    link: "https://soundcloud.com/avantilabelgroup",
   },
 ];
 
