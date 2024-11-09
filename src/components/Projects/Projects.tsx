@@ -1,7 +1,9 @@
 import apartmentgenie from "../../assets/images/apartmentgenie.png";
+import avantiLogo from "../../assets/images/avantiLogo.jpg";
 import flowmarked from "../../assets/images/flowmarked.png";
 import focusplugin from "../../assets/images/focusplugin.png";
 import muscle from "../../assets/images/muscle.png";
+import videomapping from "../../assets/images/videomapping.jpg";
 
 import "./Projects.css";
 
@@ -24,13 +26,23 @@ const projectList: Project[] = [
   },
   {
     title: "Flowmarkt (Private) 🛒",
-    link: "https://www.instagram.com/avantikollektiv/",
+    link: "https://nowkoelln.de/",
     imageUrl: flowmarked,
+  },
+  {
+    title: "Video Mapping 📽️",
+    imageUrl: videomapping,
+    link: "https://midsommar-festival.de/",
   },
   {
     title: "Muscle Measrement 💪",
     imageUrl: muscle,
-    link: muscle,
+    link: "https://github.com/Seakuh/muscle_measurement_app/tree/main",
+  },
+  {
+    title: "Avanti Kollektiv 🎧",
+    imageUrl: avantiLogo,
+    link: "https://www.instagram.com/avantikollektiv/",
   },
 ];
 

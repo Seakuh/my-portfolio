@@ -17,7 +17,7 @@ const Layout: React.FC = () => {
       <Section id="bubbles" content={<Bubbles />} />
       <Section
         id="thats-me"
-        title={"Thats me"}
+        // title={"Thats me"}
         content={<PhilosophySection />}
       />
       <Section id="Projects" title={"Projects"} content={<Projects />} />
