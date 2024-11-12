@@ -4,7 +4,7 @@ import flowmarked from "../../assets/images/flowmarked.png";
 import focusplugin from "../../assets/images/focusplugin.png";
 import muscle from "../../assets/images/muscle.png";
 import videomapping from "../../assets/images/videomapping.jpg";
-
+import contentguru from "../../assets/images/contentgutulogo.png"
 import "./Projects.css";
 
 interface Project {
@@ -23,6 +23,11 @@ const projectList: Project[] = [
     title: "Focus Plugin 🎯",
     imageUrl: focusplugin,
     link: "https://github.com/Seakuh/focus-browser-plugin",
+  },
+  {
+    title: "AI Content Guru 💬🧞‍♂️",
+    imageUrl: contentguru,
+    link: "https://apartment-text-generator-site.onrender.com/",
   },
   {
     title: "Flowmarkt (Private) 🛒",
