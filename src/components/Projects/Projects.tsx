@@ -1,10 +1,10 @@
 import apartmentgenie from "../../assets/images/apartmentgenie.png";
 import avantiLogo from "../../assets/images/avantiLogo.jpg";
+import contentCreationGuru from "../../assets/images/contentgutulogo.png";
 import flowmarked from "../../assets/images/flowmarked.png";
 import focusplugin from "../../assets/images/focusplugin.png";
 import muscle from "../../assets/images/muscle.png";
 import videomapping from "../../assets/images/videomapping.jpg";
-import contentguru from "../../assets/images/contentgutulogo.png"
 import "./Projects.css";
 
 interface Project {
@@ -25,9 +25,9 @@ const projectList: Project[] = [
     link: "https://github.com/Seakuh/focus-browser-plugin",
   },
   {
-    title: "AI Content Guru 💬🧞‍♂️",
-    imageUrl: contentguru,
-    link: "https://apartment-text-generator-site.onrender.com/",
+    title: "Content Creation Guru (wip) 💬",
+    imageUrl: contentCreationGuru,
+    link: "https://github.com/Seakuh/Content-creation-guru",
   },
   {
     title: "Flowmarkt (Private) 🛒",
@@ -47,7 +47,7 @@ const projectList: Project[] = [
   {
     title: "Avanti Kollektiv 🎧",
     imageUrl: avantiLogo,
-    link: "https://soundcloud.com/avantilabelgroup",
+    link: "https://avanti-kollektiv.de/",
   },
 ];
 
