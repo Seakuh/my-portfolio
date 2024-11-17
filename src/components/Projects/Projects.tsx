@@ -1,10 +1,12 @@
 import apartmentgenie from "../../assets/images/apartmentgenie.png";
 import avantiLogo from "../../assets/images/avantiLogo.jpg";
+import synthesizerAi from "../../assets/images/browser-synthesizer-ai.png";
 import contentCreationGuru from "../../assets/images/contentgutulogo.png";
 import flowmarked from "../../assets/images/flowmarked.png";
 import focusplugin from "../../assets/images/focusplugin.png";
 import muscle from "../../assets/images/muscle.png";
 import videomapping from "../../assets/images/videomapping.jpg";
+
 import "./Projects.css";
 
 interface Project {
@@ -33,6 +35,11 @@ const projectList: Project[] = [
     title: "Flowmarkt (Private) 🛒",
     link: "https://nowkoelln.de/",
     imageUrl: flowmarked,
+  },
+  {
+    title: "Browser Synthesizer AI 🎼",
+    link: "https://github.com/Seakuh/browser-synthesizer-ai",
+    imageUrl: synthesizerAi,
   },
   {
     title: "Video Mapping 📽️",
