@@ -4,6 +4,7 @@ import synthesizerAi from "../../assets/images/browser-synthesizer-ai.png";
 import contentCreationGuru from "../../assets/images/contentgutulogo.png";
 import flowmarked from "../../assets/images/flowmarked.png";
 import focusplugin from "../../assets/images/focusplugin.png";
+import guruHub from "../../assets/images/guruhubai.png";
 import muscle from "../../assets/images/muscle.png";
 import videomapping from "../../assets/images/videomapping.jpg";
 
@@ -17,13 +18,18 @@ interface Project {
 
 const projectList: Project[] = [
   {
-    title: "AI Apartment Genie 🏠🧞‍♂️",
+    title: "AI Apartment Genie 🏠",
     imageUrl: apartmentgenie,
     link: "https://apartment-text-generator-site.onrender.com/",
   },
   {
     title: "Focus Plugin 🎯",
     imageUrl: focusplugin,
+    link: "https://github.com/Seakuh/focus-browser-plugin",
+  },
+  {
+    title: "GuruHub AI 🧞‍♂️",
+    imageUrl: guruHub,
     link: "https://github.com/Seakuh/focus-browser-plugin",
   },
   {
