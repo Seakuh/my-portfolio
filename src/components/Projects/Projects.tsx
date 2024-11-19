@@ -30,7 +30,7 @@ const projectList: Project[] = [
   {
     title: "GuruHub AI 🧞‍♂️",
     imageUrl: guruHub,
-    link: "https://github.com/Seakuh/focus-browser-plugin",
+    link: "https://guruhub-ai.com/",
   },
   {
     title: "Content Creation Guru (wip) 💬",
