@@ -20,7 +20,7 @@ const projectList: Project[] = [
   {
     title: "AI Apartment Genie 🏠",
     imageUrl: apartmentgenie,
-    link: "https://apartment-text-generator-site.onrender.com/",
+    link: "https://guruhub-ai.com/home-finder/",
   },
   {
     title: "Focus Plugin 🎯",
@@ -33,9 +33,9 @@ const projectList: Project[] = [
     link: "https://guruhub-ai.com/",
   },
   {
-    title: "Content Creation Guru (wip) 💬",
+    title: "Content Creation Guru 💬",
     imageUrl: contentCreationGuru,
-    link: "https://github.com/Seakuh/Content-creation-guru",
+    link: "https://guruhub-ai.com/content-creation/",
   },
   {
     title: "Flowmarkt (Private) 🛒",
@@ -50,7 +50,7 @@ const projectList: Project[] = [
   {
     title: "Video Mapping 📽️",
     imageUrl: videomapping,
-    link: "https://midsommar-festival.de/",
+    link: "https://www.shadertoy.com/profile/?show=shaders",
   },
   {
     title: "Muscle Measrement 💪",
