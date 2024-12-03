@@ -1,3 +1,4 @@
+import adler from "../../assets/images/adler.webp";
 import apartmentgenie from "../../assets/images/apartmentgenie.png";
 import avantiLogo from "../../assets/images/avantiLogo.jpg";
 import synthesizerAi from "../../assets/images/browser-synthesizer-ai.png";
@@ -56,6 +57,11 @@ const projectList: Project[] = [
     title: "Muscle Measrement 💪",
     imageUrl: muscle,
     link: "https://github.com/Seakuh/muscle_measurement_app/tree/main",
+  },
+  {
+    title: "Politiker*innen Quartett 🃏",
+    imageUrl: adler,
+    link: "https://politiker-quartett.netlify.app/",
   },
   {
     title: "Avanti Kollektiv 🎧",
