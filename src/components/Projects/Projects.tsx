@@ -7,8 +7,8 @@ import flowmarked from "../../assets/images/flowmarked.png";
 import focusplugin from "../../assets/images/focusplugin.png";
 import guruHub from "../../assets/images/guruhubai.png";
 import muscle from "../../assets/images/muscle.png";
+import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
 import videomapping from "../../assets/images/videomapping.jpg";
-
 import "./Projects.css";
 
 interface Project {
@@ -67,6 +67,11 @@ const projectList: Project[] = [
     title: "Avanti Kollektiv 🎧",
     imageUrl: avantiLogo,
     link: "https://avanti-kollektiv.de/",
+  },
+  {
+    title: "Connected Home 🏡",
+    imageUrl: verbundenesZuhause,
+    link: "http://mein-verbundenes-zuhause.de/",
   },
 ];
 
