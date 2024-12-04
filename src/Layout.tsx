@@ -21,6 +21,8 @@ const Layout: React.FC = () => {
         content={<PhilosophySection />}
       />
       <Section id="Projects" title={"Projects"} content={<Projects />} />
+      {/* <Section id="Projects" title={"Blog"} content={<Blog />} /> */}
+
       <Section
         id="github-repositories"
         title="Github Repositories"
