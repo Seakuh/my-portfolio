@@ -9,7 +9,16 @@ export const PhilosophySection: React.FC = () => {
         <p>"I am an inventor, destined to shape</p>
         <p>the world and leave a lasting mark on its future." Daniel G.</p>
       </div>
-      <div className="circle-image">
+      <div
+        className="circle-image"
+        onClick={() =>
+          window.open(
+            "https://www.linkedin.com/in/daniel-grimm-55354a176/",
+            "_blank"
+          )
+        }
+        style={{ cursor: "pointer" }}
+      >
         <img src={me} alt="imageofme" />
       </div>
     </div>
