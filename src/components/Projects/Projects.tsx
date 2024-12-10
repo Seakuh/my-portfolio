@@ -92,10 +92,12 @@ export const Projects: React.FC = () => {
   return (
     <div className="card-container">
       {projectList.map((project, index) => (
-        <div
+        <a
+          href={project.link}
           className="card"
           key={index}
-          onClick={() => handleCardClick(project.link)}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <div className="card-image-container">
             <img
@@ -107,7 +109,7 @@ export const Projects: React.FC = () => {
               <h3>{project.title}</h3>
             </div>
           </div>
-        </div>
+        </a>
       ))}
     </div>
   );
