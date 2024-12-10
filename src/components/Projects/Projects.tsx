@@ -6,9 +6,11 @@ import contentCreationGuru from "../../assets/images/contentgutulogo.png";
 import flowmarked from "../../assets/images/flowmarked.png";
 import focusplugin from "../../assets/images/focusplugin.png";
 import guruHub from "../../assets/images/guruhubai.png";
+import ledProgramming from "../../assets/images/ledprogramming.png";
 import muscle from "../../assets/images/muscle.png";
 import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
 import videomapping from "../../assets/images/videomapping.jpg";
+
 import "./Projects.css";
 
 interface Project {
@@ -52,6 +54,11 @@ const projectList: Project[] = [
     title: "Video Mapping 📽️",
     imageUrl: videomapping,
     link: "https://www.shadertoy.com/profile/?show=shaders",
+  },
+  {
+    title: "LED Programming 🚨",
+    imageUrl: ledProgramming,
+    link: "https://github.com/Seakuh/LED_Project",
   },
   {
     title: "Muscle Measrement 💪",
