@@ -8,6 +8,7 @@ import focusplugin from "../../assets/images/focusplugin.png";
 import guruHub from "../../assets/images/guruhubai.png";
 import ledProgramming from "../../assets/images/ledprogramming.png";
 import muscle from "../../assets/images/muscle.png";
+import vartakt from "../../assets/images/vartakt.png";
 import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
 import videomapping from "../../assets/images/videomapping.jpg";
 
@@ -51,6 +52,11 @@ const projectList: Project[] = [
     imageUrl: synthesizerAi,
   },
   {
+    title: "Vartakt 🌈",
+    link: "https://vartakt.com/",
+    imageUrl: vartakt,
+  },
+  {
     title: "Video Mapping 📽️",
     imageUrl: videomapping,
     link: "https://www.shadertoy.com/profile/?show=shaders",
@@ -80,6 +86,11 @@ const projectList: Project[] = [
     imageUrl: verbundenesZuhause,
     link: "http://mein-verbundenes-zuhause.de/",
   },
+  // {
+  //   title: "Creative 🏡",
+  //   imageUrl: creative,
+  //   link: "https://www.shadertoy.com/profile/?show=shaders",
+  // },
 ];
 
 const handleCardClick = (link?: string) => {
