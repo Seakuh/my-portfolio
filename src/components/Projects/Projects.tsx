@@ -7,6 +7,8 @@ import focusplugin from "../../assets/images/focusplugin.png";
 import guruHub from "../../assets/images/guruhubai.png";
 import muscle from "../../assets/images/muscle.png";
 import videomapping from "../../assets/images/videomapping.jpg";
+import eventscanner from "../../assets/images/eventscanner.jpg";
+
 
 import "./Projects.css";
 
@@ -21,6 +23,11 @@ const projectList: Project[] = [
     title: "AI Apartment Genie 🏠",
     imageUrl: apartmentgenie,
     link: "https://apartment-text-generator-site.onrender.com/",
+  },
+  {
+    title: "Event Scanner📅",
+    imageUrl: eventscanner,
+    link: "https://event-scanner.com/",
   },
   {
     title: "Focus Plugin 🎯",
