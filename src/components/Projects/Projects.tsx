@@ -11,7 +11,7 @@ import muscle from "../../assets/images/muscle.png";
 import vartakt from "../../assets/images/vartakt.png";
 import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
 import videomapping from "../../assets/images/videomapping.jpg";
-import eventscanner from "../../assets/images/eventscanner.jpg";
+import eventscanner from "../../assets/images/eventscanner.png";
 
 
 import "./Projects.css";
@@ -24,14 +24,14 @@ interface Project {
 
 const projectList: Project[] = [
   {
+    title: "Event Scanner 📅",
+    imageUrl: eventscanner,
+    link: "https://event-scanner.com/",
+  },
+  {
     title: "AI Apartment Genie 🏠",
     imageUrl: apartmentgenie,
     link: "https://guruhub-ai.com/home-finder/",
-  },
-  {
-    title: "Event Scanner📅",
-    imageUrl: eventscanner,
-    link: "https://event-scanner.com/",
   },
   {
     title: "Focus Plugin 🎯",
