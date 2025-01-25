@@ -100,11 +100,11 @@ const projectList: Project[] = [
   // },
 ];
 
-const handleCardClick = (link?: string) => {
-  if (link) {
-    window.open(link, "_blank", "noopener,noreferrer");
-  }
-};
+// const handleCardClick = (link?: string) => {
+//   if (link) {
+//     window.open(link, "_blank", "noopener,noreferrer");
+//   }
+// };
 
 export const Projects: React.FC = () => {
   return (
