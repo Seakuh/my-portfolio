@@ -1,3 +1,4 @@
+import adler from "../../assets/images/adler.webp";
 import apartmentgenie from "../../assets/images/apartmentgenie.png";
 import avantiLogo from "../../assets/images/avantiLogo.jpg";
 import synthesizerAi from "../../assets/images/browser-synthesizer-ai.png";
@@ -5,7 +6,10 @@ import contentCreationGuru from "../../assets/images/contentgutulogo.png";
 import flowmarked from "../../assets/images/flowmarked.png";
 import focusplugin from "../../assets/images/focusplugin.png";
 import guruHub from "../../assets/images/guruhubai.png";
+import ledProgramming from "../../assets/images/ledprogramming.png";
 import muscle from "../../assets/images/muscle.png";
+import vartakt from "../../assets/images/vartakt.png";
+import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
 import videomapping from "../../assets/images/videomapping.jpg";
 import eventscanner from "../../assets/images/eventscanner.jpg";
 
@@ -22,7 +26,7 @@ const projectList: Project[] = [
   {
     title: "AI Apartment Genie 🏠",
     imageUrl: apartmentgenie,
-    link: "https://apartment-text-generator-site.onrender.com/",
+    link: "https://guruhub-ai.com/home-finder/",
   },
   {
     title: "Event Scanner📅",
@@ -40,9 +44,9 @@ const projectList: Project[] = [
     link: "https://guruhub-ai.com/",
   },
   {
-    title: "Content Creation Guru (wip) 💬",
+    title: "Content Creation Guru 💬",
     imageUrl: contentCreationGuru,
-    link: "https://github.com/Seakuh/Content-creation-guru",
+    link: "https://guruhub-ai.com/content-creation/",
   },
   {
     title: "Flowmarkt (Private) 🛒",
@@ -55,9 +59,19 @@ const projectList: Project[] = [
     imageUrl: synthesizerAi,
   },
   {
+    title: "Vartakt 🌈",
+    link: "https://vartakt.com/",
+    imageUrl: vartakt,
+  },
+  {
     title: "Video Mapping 📽️",
     imageUrl: videomapping,
-    link: "https://midsommar-festival.de/",
+    link: "https://www.shadertoy.com/profile/?show=shaders",
+  },
+  {
+    title: "LED Programming 🚨",
+    imageUrl: ledProgramming,
+    link: "https://github.com/Seakuh/LED_Project",
   },
   {
     title: "Muscle Measrement 💪",
@@ -65,10 +79,25 @@ const projectList: Project[] = [
     link: "https://github.com/Seakuh/muscle_measurement_app/tree/main",
   },
   {
+    title: "Politiker*innen Quartett 🃏",
+    imageUrl: adler,
+    link: "https://politiker-quartett.netlify.app/",
+  },
+  {
     title: "Avanti Kollektiv 🎧",
     imageUrl: avantiLogo,
     link: "https://avanti-kollektiv.de/",
   },
+  {
+    title: "Connected Home 🏡",
+    imageUrl: verbundenesZuhause,
+    link: "http://mein-verbundenes-zuhause.de/",
+  },
+  // {
+  //   title: "Creative 🏡",
+  //   imageUrl: creative,
+  //   link: "https://www.shadertoy.com/profile/?show=shaders",
+  // },
 ];
 
 const handleCardClick = (link?: string) => {
@@ -81,10 +110,12 @@ export const Projects: React.FC = () => {
   return (
     <div className="card-container">
       {projectList.map((project, index) => (
-        <div
+        <a
+          href={project.link}
           className="card"
           key={index}
-          onClick={() => handleCardClick(project.link)}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <div className="card-image-container">
             <img
@@ -96,7 +127,7 @@ export const Projects: React.FC = () => {
               <h3>{project.title}</h3>
             </div>
           </div>
-        </div>
+        </a>
       ))}
     </div>
   );
