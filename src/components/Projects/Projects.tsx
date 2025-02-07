@@ -12,6 +12,7 @@ import vartakt from "../../assets/images/vartakt.png";
 import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
 import videomapping from "../../assets/images/videomapping.jpg";
 import eventscanner from "../../assets/images/eventscanner.png";
+import pdfeditor from "../../assets/images/pdfeditor.png";
 
 
 import "./Projects.css";
@@ -37,6 +38,11 @@ const projectList: Project[] = [
     title: "Focus Plugin 🎯",
     imageUrl: focusplugin,
     link: "https://github.com/Seakuh/focus-browser-plugin",
+  },
+  {
+    title: "PDF File Editor",
+    imageUrl: pdfeditor,
+    link: "https://pdf-form-editor-y6inb.kinsta.page/",
   },
   {
     title: "GuruHub AI 🧞‍♂️",
