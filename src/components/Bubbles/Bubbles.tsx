@@ -28,7 +28,7 @@ const Bubble: React.FC<BubbleProps> = ({ label, onClick }) => {
 };
 
 const Bubbles: React.FC = () => {
-  const [bubbles, setBubbles] =
+  const [bubbles] =
     useState<{ name: string; color: string }[]>(labels);
 
   const handleBubbleClick = (index: number) => {};

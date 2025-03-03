@@ -13,7 +13,7 @@ import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
 import videomapping from "../../assets/images/videomapping.jpg";
 import eventscanner from "../../assets/images/eventscanner.png";
 import pdfeditor from "../../assets/images/pdfeditor.png";
-
+import retromountain from "../../retro_mountain_logo.jpeg"
 
 import "./Projects.css";
 
@@ -93,6 +93,11 @@ const projectList: Project[] = [
     title: "Avanti Kollektiv 🎧",
     imageUrl: avantiLogo,
     link: "https://avanti-kollektiv.de/",
+  },
+  {
+    title: "Retro Mountain 🎧",
+    imageUrl: retromountain,
+    link: "https://www.retromountainphangan.com/",
   },
   {
     title: "Connected Home 🏡",
