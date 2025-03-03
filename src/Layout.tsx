@@ -14,7 +14,7 @@ import "./Layout.css";
 const Layout: React.FC = () => {
   return (
     <div className="layout">
-      <Section id="bubbles" content={<Bubbles />} />
+      {/* <Section id="bubbles" content={<Bubbles />} /> */}
       <Section
         id="thats-me"
         // title={"Thats me"}

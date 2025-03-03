@@ -9,7 +9,7 @@ export const PhilosophySection: React.FC = () => {
         <p>"I am an inventor, destined to shape</p>
         <p>the world and leave a lasting mark on its future." Daniel G.</p>
       </div>
-      <div
+      {/* <div
         className="circle-image"
         onClick={() =>
           window.open(
@@ -20,7 +20,7 @@ export const PhilosophySection: React.FC = () => {
         style={{ cursor: "pointer" }}
       >
         <img src={me} alt="imageofme" />
-      </div>
+      </div> */}
     </div>
   );
 };
