@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .goals-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .goal-card {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+  }
+  
+  .goal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-placeholder {
+    height: 150px;
+    font-size: 5rem;
+    background-color: #0062ff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .goal-title {
+    color: #3dafac;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .goal-description {
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .goal-card:hover .carousel {
+    display: flex;
+  }
+  
+  .carousel-content {
+    text-align: center;
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .carousel h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .carousel p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+  
+  .carousel-button {
+    pointer-events: all;
+    background-color: #3dafac;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+  }
+  
+  .carousel-button:hover {
+    background-color: #2d8d89;
+  }
+  
+  .carousel-button.left {
+    position: absolute;
+    left: -20px;
+  }
+  
+  .carousel-button.right {
+    position: absolute;
+    right: -20px;
+  }
+  

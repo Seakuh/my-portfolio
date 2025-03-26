@@ -1,0 +1,52 @@
+.smart-goals-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: #3dafac;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .scroll-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px;
+    scroll-behavior: smooth;
+  }
+  
+  .smart-goal-card {
+    flex: 0 0 300px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .smart-goal-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .emoji {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  ul {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  ul li {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  

@@ -3,17 +3,17 @@ import apartmentgenie from "../../assets/images/apartmentgenie.png";
 import avantiLogo from "../../assets/images/avantiLogo.jpg";
 import synthesizerAi from "../../assets/images/browser-synthesizer-ai.png";
 import contentCreationGuru from "../../assets/images/contentgutulogo.png";
+import eventscanner from "../../assets/images/eventscanner.png";
 import flowmarked from "../../assets/images/flowmarked.png";
 import focusplugin from "../../assets/images/focusplugin.png";
 import guruHub from "../../assets/images/guruhubai.png";
 import ledProgramming from "../../assets/images/ledprogramming.png";
 import muscle from "../../assets/images/muscle.png";
+import pdfeditor from "../../assets/images/pdfeditor.png";
+import retromountain from "../../assets/images/retromountainlogo.png";
 import vartakt from "../../assets/images/vartakt.png";
 import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
 import videomapping from "../../assets/images/videomapping.jpg";
-import eventscanner from "../../assets/images/eventscanner.png";
-import pdfeditor from "../../assets/images/pdfeditor.png";
-import retromountain from "../../retro_mountain_logo.jpeg"
 
 import "./Projects.css";
 
@@ -95,7 +95,7 @@ const projectList: Project[] = [
     link: "https://avanti-kollektiv.de/",
   },
   {
-    title: "Retro Mountain 🎧",
+    title: "Retro Mountain 🏔️",
     imageUrl: retromountain,
     link: "https://www.retromountainphangan.com/",
   },
