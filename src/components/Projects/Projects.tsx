@@ -2,6 +2,7 @@ import adler from "../../assets/images/adler.webp";
 import apartmentgenie from "../../assets/images/apartmentgenie.png";
 import avantiLogo from "../../assets/images/avantiLogo.jpg";
 import synthesizerAi from "../../assets/images/browser-synthesizer-ai.png";
+import chefbot from "../../assets/images/chefbot.png";
 import contentCreationGuru from "../../assets/images/contentgutulogo.png";
 import eventscanner from "../../assets/images/eventscanner.png";
 import flowmarked from "../../assets/images/flowmarked.png";
@@ -11,6 +12,7 @@ import ledProgramming from "../../assets/images/ledprogramming.png";
 import muscle from "../../assets/images/muscle.png";
 import pdfeditor from "../../assets/images/pdfeditor.png";
 import retromountain from "../../assets/images/retromountainlogo.png";
+import timeTracker from "../../assets/images/timeTracker.png";
 import vartakt from "../../assets/images/vartakt.png";
 import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
 import videomapping from "../../assets/images/videomapping.jpg";
@@ -69,10 +71,21 @@ const projectList: Project[] = [
     link: "https://vartakt.com/",
     imageUrl: vartakt,
   },
+
+  {
+    title: "ChefBot 🏡",
+    imageUrl: chefbot,
+    link: "https://dashboard.ionicframework.com/app/03712aee/preview/10282531",
+  },
   {
     title: "Video Mapping 📽️",
     imageUrl: videomapping,
     link: "https://www.shadertoy.com/profile/?show=shaders",
+  },
+  {
+    title: "Time Tracker Pro",
+    imageUrl: timeTracker,
+    link: "https://chromewebstore.google.com/detail/time-tracker-pro/acckphgedbjghgcnlfklgcolmkajjjjk",
   },
   {
     title: "LED Programming 🚨",
@@ -104,6 +117,7 @@ const projectList: Project[] = [
     imageUrl: verbundenesZuhause,
     link: "http://mein-verbundenes-zuhause.de/",
   },
+
   // {
   //   title: "Creative 🏡",
   //   imageUrl: creative,
