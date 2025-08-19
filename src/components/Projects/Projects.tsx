@@ -7,7 +7,9 @@ import contentCreationGuru from "../../assets/images/contentgutulogo.png";
 import eventscanner from "../../assets/images/eventscanner.png";
 import flowmarked from "../../assets/images/flowmarked.png";
 import focusplugin from "../../assets/images/focusplugin.png";
+import garzelle from "../../assets/images/garzelle.jpeg";
 import guruHub from "../../assets/images/guruhubai.png";
+import immofy from "../../assets/images/immofy.jpeg";
 import ledProgramming from "../../assets/images/ledprogramming.png";
 import muscle from "../../assets/images/muscle.png";
 import pdfeditor from "../../assets/images/pdfeditor.png";
@@ -16,7 +18,6 @@ import timeTracker from "../../assets/images/timeTracker.png";
 import vartakt from "../../assets/images/vartakt.png";
 import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
 import videomapping from "../../assets/images/videomapping.jpg";
-
 import "./Projects.css";
 
 interface Project {
@@ -40,6 +41,16 @@ const projectList: Project[] = [
     title: "Focus Plugin 🎯",
     imageUrl: focusplugin,
     link: "https://github.com/Seakuh/focus-browser-plugin",
+  },
+  {
+    title: "Immofy",
+    imageUrl: immofy,
+    link: "https://immofy.org/",
+  },
+  {
+    title: "Garzellen Marked (WIP)",
+    imageUrl: garzelle,
+    link: "https://opensea.io/",
   },
   {
     title: "PDF File Editor",
@@ -87,6 +98,7 @@ const projectList: Project[] = [
     imageUrl: timeTracker,
     link: "https://chromewebstore.google.com/detail/time-tracker-pro/acckphgedbjghgcnlfklgcolmkajjjjk",
   },
+
   {
     title: "LED Programming 🚨",
     imageUrl: ledProgramming,
