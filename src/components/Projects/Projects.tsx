@@ -105,7 +105,7 @@ const projectList: Project[] = [
     link: "https://github.com/Seakuh/LED_Project",
   },
   {
-    title: "Muscle Measrement 💪",
+    title: "Muscle Measurement 💪",
     imageUrl: muscle,
     link: "https://github.com/Seakuh/muscle_measurement_app/tree/main",
   },
