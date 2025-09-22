@@ -1,4 +1,5 @@
 import adler from "../../assets/images/adler.webp";
+import antragmanager from "../../assets/images/antragmanager.png";
 import apartmentgenie from "../../assets/images/apartmentgenie.png";
 import avantiLogo from "../../assets/images/avantiLogo.jpg";
 import synthesizerAi from "../../assets/images/browser-synthesizer-ai.png";
@@ -43,17 +44,17 @@ const projectList: Project[] = [
     link: "https://github.com/Seakuh/focus-browser-plugin",
   },
   {
-    title: "Immofy",
+    title: "Immofy 🏠",
     imageUrl: immofy,
     link: "https://immofy.org/",
   },
   {
-    title: "Garzellen Marked (WIP)",
+    title: "Garzellen Marked (WIP) 🛒",
     imageUrl: garzelle,
     link: "https://opensea.io/",
   },
   {
-    title: "PDF File Editor",
+    title: "PDF File Editor 📄",
     imageUrl: pdfeditor,
     link: "https://pdf-form-editor-y6inb.kinsta.page/",
   },
@@ -92,6 +93,11 @@ const projectList: Project[] = [
     title: "Video Mapping 📽️",
     imageUrl: videomapping,
     link: "https://www.shadertoy.com/profile/?show=shaders",
+  },
+  {
+    title: "Antragmanager 📝",
+    imageUrl: antragmanager,
+    link: "https://antragmanager.de/",
   },
   {
     title: "Time Tracker Pro",
