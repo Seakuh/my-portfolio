@@ -18,6 +18,7 @@ import retromountain from "../../assets/images/retromountainlogo.png";
 import timeTracker from "../../assets/images/timeTracker.png";
 import vartakt from "../../assets/images/vartakt.png";
 import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
+import vibestyler from "../../assets/images/vibestyler.png";
 import videomapping from "../../assets/images/videomapping.jpg";
 import "./Projects.css";
 
@@ -47,6 +48,11 @@ const projectList: Project[] = [
     title: "Immofy 🏠",
     imageUrl: immofy,
     link: "https://immofy.org/",
+  },
+  {
+    title: "Vibestyler 🦱",
+    imageUrl: vibestyler,
+    link: "https://www.vibestylerai.com/",
   },
   {
     title: "Garzellen Marked (WIP) 🛒",
