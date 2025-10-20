@@ -98,7 +98,7 @@ const projectList: Project[] = [
   {
     title: "Video Mapping 📽️",
     imageUrl: videomapping,
-    link: "https://www.shadertoy.com/profile/?show=shaders",
+    link: "https://vartakt.com/mapping",
   },
   {
     title: "Antragmanager 📝",
