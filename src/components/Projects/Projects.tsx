@@ -14,6 +14,7 @@ import immofy from "../../assets/images/immofy.jpeg";
 import ledProgramming from "../../assets/images/ledprogramming.png";
 import muscle from "../../assets/images/muscle.png";
 import pdfeditor from "../../assets/images/pdfeditor.png";
+import pokerLogo from "../../assets/images/poker_akademi_logo.png";
 import retromountain from "../../assets/images/retromountainlogo.png";
 import timeTracker from "../../assets/images/timeTracker.png";
 import vartakt from "../../assets/images/vartakt.png";
@@ -63,6 +64,11 @@ const projectList: Project[] = [
     title: "PDF File Editor 📄",
     imageUrl: pdfeditor,
     link: "https://pdf-form-editor-y6inb.kinsta.page/",
+  },
+  {
+    title: "Poker Akademi 🃏",
+    imageUrl: pokerLogo,
+    link: "https://hyper-dragon-events.vercel.app/",
   },
   {
     title: "GuruHub AI 🧞‍♂️",
