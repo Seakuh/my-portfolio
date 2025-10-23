@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.1c7654b1.css",
-    "main.js": "/my-portfolio/static/js/main.d9469c26.js",
+    "main.js": "/my-portfolio/static/js/main.b385a337.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/muscle.png": "/my-portfolio/static/media/muscle.e9cecfc238d6e6bdeaec.png",
     "static/media/videomapping.jpg": "/my-portfolio/static/media/videomapping.6d62d9394c9f9ccade82.jpg",
+    "static/media/poker_akademi_logo.png": "/my-portfolio/static/media/poker_akademi_logo.bd44010d20c900b0ff08.png",
     "static/media/flowmarked.png": "/my-portfolio/static/media/flowmarked.fcb4af32346fb6fb3020.png",
     "static/media/passion_collective_initiatives.webp": "/my-portfolio/static/media/passion_collective_initiatives.e36a67d7c39e7b0fcebd.webp",
     "static/media/passion_digital_art.webp": "/my-portfolio/static/media/passion_digital_art.566f0e038669ed064be9.webp",
@@ -30,11 +31,11 @@
     "static/media/pdfeditor.png": "/my-portfolio/static/media/pdfeditor.657a07ebe0d80720609c.png",
     "index.html": "/my-portfolio/index.html",
     "main.1c7654b1.css.map": "/my-portfolio/static/css/main.1c7654b1.css.map",
-    "main.d9469c26.js.map": "/my-portfolio/static/js/main.d9469c26.js.map",
+    "main.b385a337.js.map": "/my-portfolio/static/js/main.b385a337.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c7654b1.css",
-    "static/js/main.d9469c26.js"
+    "static/js/main.b385a337.js"
   ]
 }
