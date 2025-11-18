@@ -4,8 +4,8 @@ import FrequencyOverview from "./BinauralFrequenciesTable/FrequencyOverview/Freq
 import BentoGrid from "./components/BentoGrid/BentoGrid";
 import Bubbles from "./components/Bubbles/Bubbles";
 import { GithubRepositories } from "./components/GithubRepositories/GithubRepositories";
+import { MIDIRainbowHeader } from "./components/MIDIRainbowHeader/MIDIRainbowHeader";
 import PassionSymbols from "./components/PassionSymbols/PassionSymbols";
-import { PhilosophySection } from "./components/PhilosophySection/PhilosophySection";
 import { Projects } from "./components/Projects/Projects";
 import Section from "./components/Section/Section";
 import TimeLine from "./components/TimeLine/TimeLine";
@@ -14,12 +14,13 @@ import "./Layout.css";
 const Layout: React.FC = () => {
   return (
     <div className="layout">
+      <MIDIRainbowHeader />
       {/* <Section id="bubbles" content={<Bubbles />} /> */}
-      <Section
+      {/* <Section
         id="thats-me"
         // title={"Thats me"}
         content={<PhilosophySection />}
-      />
+      /> */}
       <Section id="Projects" title={"Projects"} content={<Projects />} />
       {/* <Section id="Projects" title={"Blog"} content={<Blog />} /> */}
 
