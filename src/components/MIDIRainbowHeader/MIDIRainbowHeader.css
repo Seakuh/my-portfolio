@@ -1,9 +1,21 @@
+/* Ensure all children use border-box */
+.midi-rainbow-header *,
+.midi-rainbow-header *::before,
+.midi-rainbow-header *::after,
+.midi-controls-wrapper *,
+.midi-controls-wrapper *::before,
+.midi-controls-wrapper *::after {
+  box-sizing: border-box;
+}
+
 .midi-rainbow-header {
   position: relative;
   width: 100%;
-  height: 100vh;
+  max-width: 100vw;
+  height: 50vh;
   background-color: white;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .canvas-container {
@@ -15,7 +27,11 @@
   z-index: 1;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .header-content {
+  width: 90%;
+  max-width: 800px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -24,11 +40,13 @@
   text-align: center;
   color: #333;
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   border-radius: 1rem;
-  backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
 }
 
 .header-title {
@@ -87,5 +105,254 @@
 
   .header-content {
     padding: 1rem;
+    max-width: 100%;
+  }
+}
+
+/* Floating Palette Button */
+.palette-toggle-btn {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  z-index: 100;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
+  background-size: 300% 300%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  animation: rainbowShine 4s ease infinite;
+  position: relative;
+  overflow: visible;
+}
+
+@keyframes rainbowShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* MIDI Controls Wrapper */
+.midi-controls-wrapper {
+  width: 100%;
+  max-width: 100vw;
+  background-color: white;
+  border-top: 1px solid #e0e0e0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* MIDI Controls */
+.midi-controls {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 40px 20px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 30px;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  align-items: start;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.3s ease, padding 0.5s ease;
+  box-sizing: border-box;
+}
+
+.midi-controls.expanded {
+  max-height: 1000px;
+  opacity: 1;
+  padding-top: 40px;
+}
+
+.midi-controls.collapsed {
+  padding: 0 20px;
+}
+
+.midi-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s ease;
+  height: fit-content;
+}
+
+.midi-toggle-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.midi-toggle-btn.active {
+  background-color: #28a745;
+}
+
+.midi-toggle-btn.active:hover {
+  background-color: #218838;
+}
+
+.controls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  gap: 25px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.control-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.control-slider {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background: #ddd;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.control-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.control-slider::-webkit-slider-thumb:hover {
+  background: #0056b3;
+  transform: scale(1.2);
+}
+
+.control-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.control-slider::-moz-range-thumb:hover {
+  background: #0056b3;
+  transform: scale(1.2);
+}
+
+.control-value {
+  font-size: 11px;
+  color: #666;
+  text-align: right;
+}
+
+.rgb-controls {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+  gap: 25px;
+  box-sizing: border-box;
+}
+
+.rgb-controls .control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .midi-rainbow-header {
+    overflow: hidden;
+  }
+
+  .palette-toggle-btn {
+    width: 56px;
+    height: 56px;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .palette-toggle-btn svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .midi-controls-wrapper {
+    width: 100%;
+    max-width: 100vw;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .midi-controls {
+    grid-template-columns: 1fr;
+    padding: 0 15px 30px 15px;
+    gap: 20px;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .midi-controls.expanded {
+    padding-top: 30px;
+  }
+
+  .midi-controls.collapsed {
+    padding: 0 15px;
+  }
+
+  .controls-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .midi-toggle-btn {
+    width: 100%;
+  }
+
+  .rgb-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .header-content {
+    max-width: 100%;
+    padding: 1.5rem;
   }
 }

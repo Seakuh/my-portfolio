@@ -21,6 +21,7 @@ import vartakt from "../../assets/images/vartakt.png";
 import verbundenesZuhause from "../../assets/images/verbundenesZuhause.png";
 import vibestyler from "../../assets/images/vibestyler.png";
 import videomapping from "../../assets/images/videomapping.jpg";
+import hyperDragon from "../../assets/images/hyperdragonlogo.png";
 import "./Projects.css";
 
 interface Project {
@@ -59,6 +60,11 @@ const projectList: Project[] = [
     title: "Garzellen Marked (WIP) 🛒",
     imageUrl: garzelle,
     link: "https://opensea.io/",
+  },
+  {
+    title: "Hyper Dragon Website Platform🐉",
+    imageUrl: hyperDragon,
+    link: "https://hyperdragon.space/",
   },
   {
     title: "PDF File Editor 📄",
