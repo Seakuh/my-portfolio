@@ -13,6 +13,7 @@ import Section from "./components/Section/Section";
 import TimeLine from "./components/TimeLine/TimeLine";
 import { Footer } from "./Footer/Footer";
 import "./Layout.css";
+import { PhilosophySection } from "./components/PhilosophySection/PhilosophySection";
 const Layout: React.FC = () => {
   return (
     <div className="layout">
@@ -20,11 +21,11 @@ const Layout: React.FC = () => {
       {/* <Hero /> */}
       {/* <MIDIRainbowHeader /> */}
       {/* <Section id="bubbles" content={<Bubbles />} /> */}
-      {/* <Section
+      <Section
         id="thats-me"
         // title={"Thats me"}
         content={<PhilosophySection />}
-      /> */}
+      />
       <Section id="Projects" title={"Projects"} content={<Projects />} />
       {/* <Section id="Projects" title={"Blog"} content={<Blog />} /> */}
 

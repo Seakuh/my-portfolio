@@ -47,6 +47,11 @@ const projectList: Project[] = [
     link: "https://github.com/Seakuh/focus-browser-plugin",
   },
   {
+    title: "Hyper Dragon Website Platform🐉",
+    imageUrl: hyperDragon,
+    link: "https://hyperdragon.space/",
+  },
+  {
     title: "Immofy 🏠",
     imageUrl: immofy,
     link: "https://immofy.org/",
@@ -60,11 +65,6 @@ const projectList: Project[] = [
     title: "Garzellen Marked (WIP) 🛒",
     imageUrl: garzelle,
     link: "https://opensea.io/",
-  },
-  {
-    title: "Hyper Dragon Website Platform🐉",
-    imageUrl: hyperDragon,
-    link: "https://hyperdragon.space/",
   },
   {
     title: "PDF File Editor 📄",
