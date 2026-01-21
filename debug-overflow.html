@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Overflow Debug Tool</title>
+  <style>
+    body { font-family: monospace; padding: 20px; }
+    .overflow { border: 2px solid red !important; }
+    #results { margin-top: 20px; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Overflow Debug Tool</h1>
+  <button onclick="findOverflow()">Find Overflow Elements</button>
+  <div id="results"></div>
+
+  <script>
+    function findOverflow() {
+      const results = [];
+      const all = document.querySelectorAll('*');
+
+      all.forEach(el => {
+        if (el.scrollWidth > el.clientWidth || el.offsetWidth > window.innerWidth) {
+          el.classList.add('overflow');
+          results.push({
+            tag: el.tagName,
+            class: el.className,
+            scrollWidth: el.scrollWidth,
+            clientWidth: el.clientWidth,
+            offsetWidth: el.offsetWidth,
+            windowWidth: window.innerWidth
+          });
+        }
+      });
+
+      document.getElementById('results').textContent =
+        'Window Width: ' + window.innerWidth + 'px\n\n' +
+        'Overflow Elements:\n' +
+        JSON.stringify(results, null, 2);
+    }
+
+    // Run on load
+    window.addEventListener('load', findOverflow);
+  </script>
+</body>
+</html>

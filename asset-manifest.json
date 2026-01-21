@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1c7654b1.css",
-    "main.js": "/my-portfolio/static/js/main.b385a337.js",
+    "main.css": "/my-portfolio/static/css/main.b5efa2be.css",
+    "main.js": "/my-portfolio/static/js/main.2e5864aa.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/muscle.png": "/my-portfolio/static/media/muscle.e9cecfc238d6e6bdeaec.png",
     "static/media/videomapping.jpg": "/my-portfolio/static/media/videomapping.6d62d9394c9f9ccade82.jpg",
@@ -12,6 +12,7 @@
     "static/media/passion_light_programming.webp": "/my-portfolio/static/media/passion_light_programming.5804664ecbe245d50a9e.webp",
     "static/media/adler.webp": "/my-portfolio/static/media/adler.76135bae4c96b1c39cc6.webp",
     "static/media/eventscanner.png": "/my-portfolio/static/media/eventscanner.e1e02e74bb58502306d2.png",
+    "static/media/hyperdragonlogo.png": "/my-portfolio/static/media/hyperdragonlogo.7bd19a43102a95e007ea.png",
     "static/media/focusplugin.png": "/my-portfolio/static/media/focusplugin.e3097e949cf077407771.png",
     "static/media/browser-synthesizer-ai.png": "/my-portfolio/static/media/browser-synthesizer-ai.7c9f63a9e8d7a5c400ac.png",
     "static/media/ledprogramming.png": "/my-portfolio/static/media/ledprogramming.33c0640b6b20c37b4762.png",
@@ -30,12 +31,12 @@
     "static/media/antragmanager.png": "/my-portfolio/static/media/antragmanager.5d61d259e28f9e64d748.png",
     "static/media/pdfeditor.png": "/my-portfolio/static/media/pdfeditor.657a07ebe0d80720609c.png",
     "index.html": "/my-portfolio/index.html",
-    "main.1c7654b1.css.map": "/my-portfolio/static/css/main.1c7654b1.css.map",
-    "main.b385a337.js.map": "/my-portfolio/static/js/main.b385a337.js.map",
+    "main.b5efa2be.css.map": "/my-portfolio/static/css/main.b5efa2be.css.map",
+    "main.2e5864aa.js.map": "/my-portfolio/static/js/main.2e5864aa.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c7654b1.css",
-    "static/js/main.b385a337.js"
+    "static/css/main.b5efa2be.css",
+    "static/js/main.2e5864aa.js"
   ]
 }
