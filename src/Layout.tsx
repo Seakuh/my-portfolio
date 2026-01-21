@@ -3,6 +3,8 @@ import BinauralFrequenciesTable from "./BinauralFrequenciesTable/BinauralFrequen
 import FrequencyOverview from "./BinauralFrequenciesTable/FrequencyOverview/FrequencyOverview";
 import BentoGrid from "./components/BentoGrid/BentoGrid";
 import Bubbles from "./components/Bubbles/Bubbles";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
 import { GithubRepositories } from "./components/GithubRepositories/GithubRepositories";
 import { MIDIRainbowHeader } from "./components/MIDIRainbowHeader/MIDIRainbowHeader";
 import PassionSymbols from "./components/PassionSymbols/PassionSymbols";
@@ -14,6 +16,8 @@ import "./Layout.css";
 const Layout: React.FC = () => {
   return (
     <div className="layout">
+      {/* <Header /> */}
+      {/* <Hero /> */}
       {/* <MIDIRainbowHeader /> */}
       {/* <Section id="bubbles" content={<Bubbles />} /> */}
       {/* <Section

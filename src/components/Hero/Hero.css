@@ -1,0 +1,24 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 80px;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+  }
+}
