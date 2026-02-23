@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.b5efa2be.css",
-    "main.js": "/my-portfolio/static/js/main.2e5864aa.js",
+    "main.css": "/my-portfolio/static/css/main.a423ac60.css",
+    "main.js": "/my-portfolio/static/js/main.c4ffab8b.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/muscle.png": "/my-portfolio/static/media/muscle.e9cecfc238d6e6bdeaec.png",
     "static/media/videomapping.jpg": "/my-portfolio/static/media/videomapping.6d62d9394c9f9ccade82.jpg",
@@ -22,6 +22,7 @@
     "static/media/contentgutulogo.png": "/my-portfolio/static/media/contentgutulogo.f35f320b3c10ba901f83.png",
     "static/media/vartakt.png": "/my-portfolio/static/media/vartakt.755138e27826000422c6.png",
     "static/media/vibestyler.png": "/my-portfolio/static/media/vibestyler.7dac3aee2a45e0b9870e.png",
+    "static/media/RAGOS_LOGO_HORIZON.webp": "/my-portfolio/static/media/RAGOS_LOGO_HORIZON.782404617b93cdce15ad.webp",
     "static/media/immofy.jpeg": "/my-portfolio/static/media/immofy.54b718a2a62139ba11cb.jpeg",
     "static/media/apartmentgenie.png": "/my-portfolio/static/media/apartmentgenie.122ac74b2bd87aa8f18f.png",
     "static/media/garzelle.jpeg": "/my-portfolio/static/media/garzelle.135833513f1db60e5057.jpeg",
@@ -31,12 +32,12 @@
     "static/media/antragmanager.png": "/my-portfolio/static/media/antragmanager.5d61d259e28f9e64d748.png",
     "static/media/pdfeditor.png": "/my-portfolio/static/media/pdfeditor.657a07ebe0d80720609c.png",
     "index.html": "/my-portfolio/index.html",
-    "main.b5efa2be.css.map": "/my-portfolio/static/css/main.b5efa2be.css.map",
-    "main.2e5864aa.js.map": "/my-portfolio/static/js/main.2e5864aa.js.map",
+    "main.a423ac60.css.map": "/my-portfolio/static/css/main.a423ac60.css.map",
+    "main.c4ffab8b.js.map": "/my-portfolio/static/js/main.c4ffab8b.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5efa2be.css",
-    "static/js/main.2e5864aa.js"
+    "static/css/main.a423ac60.css",
+    "static/js/main.c4ffab8b.js"
   ]
 }
